@@ -4,7 +4,7 @@ object Q1 {
   class Rational(n: Int, d: Int) {
     require(d != 0, "Denominator cannot be zero")
 
-    private val gcdValue: Int = gcd(n, d)
+    val gcdValue: Int = gcd(n, d)
     val numer: Int = n / gcdValue
     val denom: Int = d / gcdValue
 
