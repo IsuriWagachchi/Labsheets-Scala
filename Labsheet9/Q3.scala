@@ -2,7 +2,7 @@ package Labsheet9
 
 object Q3 {
   class Account(initial: Double) {
-    private var balance: Double = initial
+    var balance: Double = initial
 
     def getBalance: Double = balance
 
